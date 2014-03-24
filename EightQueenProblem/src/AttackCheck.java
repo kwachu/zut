@@ -65,4 +65,9 @@ public class AttackCheck {
 		return false;
 	}
 
+	
+	boolean isAttacked() {
+		Ab.check = beatsDiagonalCheck() && beatsVerticalHorizontalCheck();
+		return Ab.check;
+	}
 }

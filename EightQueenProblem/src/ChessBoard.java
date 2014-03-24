@@ -3,6 +3,7 @@ public class ChessBoard {
 	int size;
 	int [][]cb; //ChessBoard
 	Queen []queens; //Queens 
+	boolean check;
 	
 	public ChessBoard(int n) {
 		this.size = n;
